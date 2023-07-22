@@ -1,5 +1,8 @@
 # curriculum-vitae-vanilla
-Curriculum Vitae - HTML5 - CSS3 - JAVASCRIPT
+Curriculum Vitae
+
+TECNOLOGIAS
+HTML5 - CSS3 - JAVASCRIPT
 
 LINK PARA VISITAR EL SITIO WEB DE MI CURRICULUM
 - https://pablo1795.github.io/pablo1795/
