@@ -1,16 +1,14 @@
-### Hi there 👋
+# curriculum-vitae-vanilla
+Curriculum Vitae - HTML5 - CSS3 - JAVASCRIPT
 
-<!--
-**pablo1795/pablo1795** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+LINK PARA VISITAR EL SITIO WEB DE MI CURRICULUM
+- https://pablo1795.github.io/pablo1795/
 
-Here are some ideas to get you started:
+CLONAR O DESCARGAR EL PROYECTO Y EJECUTAR EL SITIO WEB
+- ejecutar el archivo index.html (tambien ejecutable desde un live server).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ACTUALIZACIONES PENDIENTES
+- estilos en el zoom de las fotos de los certificados.
+
+EXTRAS
+- puse la captura de mi primer examen html en http://examinator.net/, las mismas estan en la carpeta "images".

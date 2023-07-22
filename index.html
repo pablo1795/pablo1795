@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="author" content="Diaz, Pablo Facundo">
+  <meta name="description"
+    content="curriculum vitae del desarrollador web Pablo Facundo Diaz de San Miguel de Tucumán, Argentina">
+  <meta name="keywords" content="curriculum vitae, curriculum desarrollador web, desarrollador tucumán">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- iconos de https://icon-icons.com -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Curriculum Vitae</title>
+</head>
+
+<body>
+  <nav id="MenuNavegacion">
+    <a href="#Inicio" class="logo">
+      <h1 class="text-lg">Pablo F. Diaz</h1>
+      <h2 class="text-sm">Desarrollador Web</h2>
+    </a>
+
+    <button class="menuToggle" onclick="menuToggle();"></button>
+
+    <ul class="navigation">
+      <li><a href="#Inicio" onclick="menuToggle();" title="ir a inicio">Inicio</a></li>
+      <li><a href="#Tecnologias" onclick="menuToggle();" title="ir a tecnologias">Tecnologias</a></li>
+      <li><a href="#Estudios" onclick="menuToggle();" title="ir a estudios">Estudios</a></li>
+      <li><a href="#Experiencias" onclick="menuToggle();" title="ir a experiencias">Experiencias</a></li>
+      <li><a href="#Contactame" onclick="menuToggle();" title="ir a contactame">Contactame</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="Inicio" class="container">
+      <div class="card">
+        <ul>
+          <li>Diaz, Pablo Facundo</li>
+          <li>Argentina, Tucumán</li>
+          <li>27 años</li>
+          <li>Español nativo</li>
+          <li>Ingles intermedio</li>
+        </ul>
+
+        <figure>
+          <img src="./images/perfil.jpg" alt="foto de perfil" title="foto de perfil" />
+        </figure>
+
+        <p class="text-center text-sm">
+          <span class="text-bold">¡Hola mundo!</span> soy <span class="text-bold">Pablo</span>, desarrollador
+          web en diversas tecnologías y entornos de trabajo. Apasionado
+          del buen diseño y la estructura de información en pantalla. Cuento con buenas prácticas, me adapto
+          rápidamente a las normas y exigencias del equipo desarrollo para brindar soluciones eficientes
+        </p>
+      </div>
+    </section>
+
+    <section id="Tecnologias" class="container">
+      <header>
+        <h2>Tecnologias que Domino</h2>
+      </header>
+
+      <div class="content">
+        <div class="card">
+          <header>
+            <h3 class="text-center text-md text-uppercase">stack basico de web</h3>
+          </header>
+
+          <p class="text-center text-sm">
+            Las tecnologías web básicas y claves que dan estructura, diseño y lógica a todas las
+            páginas web
+          </p>
+
+          <div>
+            <figure>
+              <img src="./images/icons/html.svg" alt="HTML: ‘lenguaje de marcado de hipertexto " title="HTML" />
+              <figcaption>HTML</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/css.svg" alt="CSS: Hojas de estilo en cascada" title="CSS" />
+              <figcaption>CSS</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/js.svg" alt="JavaScript" title="JavaScript" />
+              <figcaption>JavaScript</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <article class="card">
+          <header>
+            <h3 class="text-center text-md text-uppercase">lamp stack</h3>
+          </header>
+
+          <p class="text-center text-sm">
+            Mas de la mitad de las páginas web está construido con este patron de tecnologías
+          </p>
+
+          <div>
+            <figure>
+              <img src="./images/icons/linux.svg" alt="Linux" title="Linux" />
+              <figcaption>Linux</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/apache.svg" alt="Apache" title="Apache" />
+              <figcaption>Apache</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/mysql.svg" alt="My SQL" title="My SQL" />
+              <figcaption>MySQL</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/php.svg" alt="PHP" title="PHP" />
+              <figcaption>PHP</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="text-center text-md text-uppercase">
+            <h3 class="text-uppercase">stack mern</h3>
+          </header>
+
+          <p class="text-center text-sm">
+            Crear aplicaciones web para una mejor experiencia de usuario
+          </p>
+
+          <div>
+            <figure>
+              <img src="./images/icons/mongodb.svg" alt="Mongo DB" title="Mongo DB" />
+              <figcaption>MongoDB</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/ex.svg" alt="Express JS" title="Express JS" />
+              <figcaption>Express</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/react.svg" alt="React JS" title="React JS" />
+              <figcaption>ReactJS</figcaption>
+            </figure>
+
+            <figure>
+              <img src="./images/icons/nodejs.svg" alt="Node JS" title="Node JS" />
+              <figcaption>NodeJS</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="Estudios" class="container">
+      <header>
+        <h2>Estudios Realizados</h2>
+      </header>
+
+      <div class="content">
+        <article class="card card-dark">
+          <header>
+            <h3 class="text-uppercase">#SeProgramar<br />
+              Argentina Programa 4.0</h3>
+            <button onclick="abrirModal(1);" class="buttonIcon" title="certificados">🏅</button>
+          </header>
+
+          <div>
+            <h4>CESSI Argentina</h4>
+            <span class="text-italic">2022 – 2022</span>
+          </div>
+        </article>
+
+        <article class="card card-dark">
+          <header>
+            <h3 class="text-uppercase">
+              Programador Web<br />
+              Full Stack
+              <span class="text-italic">(MERN stack)</span>
+            </h3>
+            <button onclick="abrirModal(2);" class="buttonIcon" title="certificados">🏅</button>
+          </header>
+
+          <div>
+            <h4>Rolling Code School</h4>
+            <span class="text-italic">2019 - 2020</span>
+          </div>
+        </article>
+
+        <article class="card card-dark">
+          <header>
+            <h3 class="text-uppercase">Inglés</h3>
+            <button onclick="abrirModal(3);" class="buttonIcon" title="certificados">🏅</button>
+          </header>
+
+          <div>
+            <h4>Universidad Tecnológica Nacional<br />
+              Facultad Regional de Tucumán</h4>
+            <span class="text-italic">2014 - 2014</span>
+          </div>
+        </article>
+
+        <article class="card card-dark">
+          <header>
+            <h3 class="text-uppercase">Reparador de PC</h3>
+            <button onclick="abrirModal(4);" class="buttonIcon" title="certificados">🏅</button>
+          </header>
+
+          <div>
+            <h4>Universidad Tecnológica Nacional<br />
+              Facultad Regional de Tucumán</h4>
+            <span class="text-italic">2014 - 2014</span>
+          </div>
+        </article>
+
+        <article class="card card-dark">
+          <header>
+            <h3 class="text-uppercase">Operador de PC</h3>
+            <button onclick="abrirModal(5);" class="buttonIcon" title="certificados">🏅</button>
+          </header>
+
+          <div>
+            <h4>Universidad Tecnológica Nacional<br />
+              Facultad Regional de Tucumán</h4>
+            <span class="text-italic">2014 - 2014</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="Experiencias" class="container">
+      <header>
+        <h2>Experiencia Laboral</h2>
+      </header>
+
+      <div class="content">
+        <article class="card card-dark">
+          <figure>
+            <img src="./images/logo_ministerio.png" alt="logo del ministerio de educación de tucumán"
+              title="logo del ministerio de educación de tucumán" />
+          </figure>
+
+          <header>
+            <h3 class="text-center text-md">Ministerio de Educación de la Provincia de Tucumán</h3>
+            <h4 class="text-center text-sm">Desarrollador web en SIME</h4>
+          </header>
+
+          <div class="card-contenido">
+            <p class="text-sm">
+              Tuve la honorable posibilidad de trabajar en los sistemas del ministerio educativo de la
+              nación.
+              En mi corto tiempo pude conocer, aprender y colaborar el manejo de datos educativos,
+              tablas relacionales, patrones de diseño, cumplir un rol en un equipo de desarrolladores, en
+              un hermoso sistema que tiene vida, esfuerzo y cariño de los que estuvieron y están
+              trabajando en SIME
+            </p>
+
+            <span class="text-italic">desde 2020 hasta 2022</span>
+          </div>
+
+          <button class="buttonIcon" title="más información" onclick="expandirCard();">➕</button>
+        </article>
+
+        <article class="card card-dark">
+          <figure>
+            <img src="./images/logo_facultad.png" alt="logo de la facultad nacional de tucumán"
+              title="logo de la facultad nacional de tucumán" />
+          </figure>
+
+          <header>
+            <h3 class="text-center text-md">Universidad Nacional de Tucumán<br />Quinta Agronomica</h3>
+            <h4 class="text-center text-sm">Auxiliar docente | Ayudante estudiantil</h4>
+          </header>
+
+          <div class="card-contenido">
+            <p class="text-sm">
+              Gracias profesores, por reconocer, alentar e impulsar mi potencial creativo y darme la
+              oportunidad poder transmitir a mis compañeros, lo fácil, divertido y apasionante que es el
+              mundo programación
+            </p>
+
+            <span class="text-italic">desde 2018 hasta 2022</span>
+          </div>
+
+          <button class="buttonIcon" title="más información" onclick="expandirCard();">➕</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="Contactame" class="container">
+    <header>
+      <h2>Informacion de Contacto</h2>
+    </header>
+
+    <div class="content">
+      <article class="card">
+        <h3 class="text-md text-uppercase">Contacto Directo</h3>
+
+        <ul>
+          <li>
+            <span class="text-uppercase text-bold">telefono: </span>
+            <a href="tel:3813698820" target="_blank" class="link" title="mi numero telefonico">0381-153-698820</a>
+          </li>
+          <li>
+            <span class="text-uppercase text-bold">correo electronico: </span>
+            <a href="mailto:pablo.diaz1795@gmail.com" target="_blank" class="link"
+              title="mi correo electronico">pablo.diaz1795@gmail.com</a>
+          </li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3 class="text-md text-uppercase">Redes Sociales</h3>
+
+        <ul>
+          <li>
+            <span class="text-uppercase text-bold">github: </span>
+            <span>[ PREPARANDO PERFIL ]</span>
+          </li>
+          <li>
+            <span class="text-uppercase text-bold">linkedin: </span>
+            <span>[ PREPARANDO PERFIL ]</span>
+          </li>
+        </ul>
+      </article>
+    </div>
+
+    <address class="card card-dark text-center text-italic">copyright@Pablo F. Diaz</address>
+  </footer>
+
+  <div id="MiModal">
+    <section class="card card-dark">
+      <header>
+        <h3 class="title-modal text-uppercase text-lg">titulo ventana modal</h3>
+        <button onclick="cerrarModal();" title="cerrar" class="buttonIcon">✖</button>
+      </header>
+
+      <figure>
+        <img src="./images/certificados/arg_progama1.png" alt="" class="image-modal">
+      </figure>
+    </section>
+  </div>
+
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>
