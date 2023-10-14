@@ -37,9 +37,14 @@ function expandirCard(EV) {
 
 const storeStudies = [
   {
+    _id: 0,
+    name: 'Certificado pendiente en cargar',
+    imageName: '',
+  },
+  {
     _id: 1,
     name: 'argentina progama 4.0',
-    imageName: 'arg_progama1.png',
+    imageName: 'arg_programa1.png',
   },
   {
     _id: 2,
@@ -48,13 +53,13 @@ const storeStudies = [
   },
   {
     _id: 3,
-    name: 'certificado 3',
-    imageName: '',
+    name: 'argentina progama 4.0 Páginas web',
+    imageName: 'arg_programa2.png',
   },
   {
     _id: 4,
-    name: 'certificado 4',
-    imageName: '',
+    name: 'argentina progama 4.0 Aplicaciones móviles',
+    imageName: 'arg_programa3.png',
   },
   {
     _id: 5,
