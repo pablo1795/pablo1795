@@ -10,3 +10,6 @@ Esta aplicacion de momento solo se ejecuta en modo desarrollo (dev)
 Ejecutar en el directorio raiz /pablo1795/ los comando:
 - npm install
 - npm run dev
+
+# Mi CV
+[cv_pablo_diaz.pdf](https://github.com/user-attachments/files/16313615/cv_pablo_diaz.pdf)
