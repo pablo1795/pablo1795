@@ -1,0 +1,257 @@
+{
+  "pages": {
+    "home": {
+      "navigation": [
+        {
+          "text": "inicio",
+          "href": "home"
+        },
+        {
+          "text": "tecnologías",
+          "href": "technologies"
+        },
+        {
+          "text": "estudios",
+          "href": "studies"
+        },
+        {
+          "text": "experiencia",
+          "href": "workExperience"
+        },
+        {
+          "text": "contáctame",
+          "href": "contact"
+        }
+      ],
+      "introduction": {
+        "full_name": "Pablo Facundo Díaz",
+        "job_title": "Desarrollador Web",
+        "location": "Argentina, Tucumán",
+        "languages": [
+          "Español nativo",
+          "Inglés intermedio"
+        ],
+        "buttonCV": {
+          "buttonText": "Descargar CV",
+          "buttonLink": "./utils/cv - pablo diaz.pdf"
+        },
+        "greeting": "¡Hola mundo! Soy Pablo, desarrollador web en diversas tecnologías y entornos de trabajo. Apasionado del buen diseño y la estructura de información en pantalla. Cuento con buenas prácticas, me adapto rápidamente a las normas y exigencias del equipo de desarrollo para brindar soluciones eficientes."
+      },
+      "title": {
+        "introduction": "Hola Mundo",
+        "technologies": "Tecnologías que Domino",
+        "studies": "Estudios Realizados",
+        "workExperience": "Experiencia Laboral"
+      },
+      "footer": {
+        "github": "[ Preparando perfil ]",
+        "linkedin": "[ Preparando perfil ]"
+      }
+    },
+    "resume": {
+      "personal_info": {
+        "full_name": "Pablo Facundo Díaz",
+        "profession": "Desarrollador Web",
+        "nationalityTitle": "Ciutdad",
+        "nationality": "Tucumán, Argentina",
+        "githubTitle": "GitHub",
+        "githubName": "pablo1795",
+        "githuburl": "github.com/pablo1795",
+        "linkedinTitle": "LinkedIn",
+        "linkedinName": "pablo1795",
+        "linkedinUrl": "linkedin.com/in/pablo1795",
+        "greeting1": "¡Hola, soy Pablo!",
+        "greeting2": "Ofrezco mis servicios para diversos entornos laborales, destacando mis habilidades para utilizar distintos softwares de gestión, mantenimiento de equipos tecnológicos, atención al público, trabajo en equipo, presentación y respeto.",
+        "professions": [
+          "Operador de Computadoras",
+          "Programador de Aplicaciones Web",
+          "Técnico de Computadoras"
+        ]
+      },
+      "title": {
+        "cv": "Currículum Vitae",
+        "experience": "Experiencia Laboral",
+        "studies": "Estudios",
+        "contact": "Contáctame"
+      }
+    }
+  },
+  "interface": {
+    "navbar": {
+      "menu": "Menú",
+      "openmenu": "Abrir Menú",
+      "closemenu": "Cerrar Menú",
+      "darkmode": "Modo Oscuro",
+      "lightmode": "Modo Claro"
+    }
+  },
+  "data": {
+    "technologies": [
+      {
+        "title": "Stack Web",
+        "description": "Las tecnologías web básicas y claves que dan estructura, diseño y lógica a todas las páginas web",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "LAMP Stack",
+        "description": "Más de la mitad de las páginas web están construidas con este patrón de tecnologías",
+        "technologies": [
+          "Linux",
+          "Apache",
+          "MySQL",
+          "PHP"
+        ]
+      },
+      {
+        "title": "Stack MERN",
+        "description": "Crear aplicaciones web para una mejor experiencia de usuario",
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "ReactJS",
+          "NodeJS"
+        ]
+      }
+    ],
+    "studies": [
+      {
+        "title": "Desarrollo de Aplicaciones Móviles Kotlin Inicial",
+        "organization": "CESSI Argentina",
+        "date": "2023",
+        "description": "Desarrollo de aplicaciones móviles en Kotlin inicial"
+      },
+      {
+        "title": "Desarrollo de Páginas Web Frontend",
+        "organization": "Ticmas",
+        "date": "2022",
+        "description": "Desarrollo de páginas web frontend"
+      },
+      {
+        "title": "#SeProgramar",
+        "organization": "CESSI Argentina",
+        "date": "2022",
+        "description": "#SeProgramar"
+      },
+      {
+        "title": "Programador Web (MERN Stack)",
+        "organization": "Rolling Code School",
+        "date": "2019 - 2020",
+        "description": "Programador web en MongoDB, Express, React, NodeJS"
+      },
+      {
+        "title": "Inglés",
+        "organization": "Universidad Tecnológica Nacional",
+        "date": "2014",
+        "description": "Inglés"
+      },
+      {
+        "title": "Reparador de PC",
+        "organization": "Universidad Tecnológica Nacional",
+        "date": "2014",
+        "description": "Reparador de PC"
+      },
+      {
+        "title": "Operador de PC",
+        "organization": "Universidad Tecnológica Nacional",
+        "date": "2014",
+        "description": "Operador de PC"
+      }
+    ],
+    "work_experience": [
+      {
+        "date": "2 años (21-23)",
+        "description": "Desarrollo de interfaces de usuario en sistemas de ventas, con implementaciones en el carrito de compras, escaneo de productos y descuentos con codigos QR ",
+        "details": "TypeScript, ReactJS, React Native, Figma",
+        "logo": "logo_vortex",
+        "role": "Desarrollador de Aplicaciones Web",
+        "title": "Vortex-IT",
+        "url": "vortex-it.com"
+      },
+      {
+        "bgFigureDark": true,
+        "date": "1 año 6 meses (21-22)",
+        "description": "Pasantía de programador web en el Sistema Integrado del Ministerio de Educación de Tucumán, en la creacion de interfaces para usuarios administrativos.",
+        "logo": "logo_ministerio",
+        "role": "Desarrollador de páginas Web",
+        "details": "HTML, CSS, JAVASCRIPT, C#, SQL, .NET Framework 4, SQL Server",
+        "title": "Ministerio de Educación de la Nación",
+        "url": "sime.educaciontuc.gov.ar"
+      },
+      {
+        "bgFigureDark": true,
+        "date": "3 años (18-21)",
+        "description": "Auxiliar docente y ayudante de estudiantil en la materia Laboratorio, que enseñan la creación de páginas web accesibles. con las tecnologias ",
+        "details": "HTML, CSS, JavaScript, PHP, MySQL, XAMPP, NVDA",
+        "logo": "logo_facet",
+        "role": "Auxiliar Docente",
+        "title": "Universidad Nacional de Tucumán",
+        "url": "www.facet.unt.edu.ar"
+      }
+    ],
+    "educations": [
+      {
+        "date": "Finalizó en 2019",
+        "description": "Programador Web MERN Stack",
+        "title": "Rolling Code School"
+      },
+      {
+        "date": "Finalizó en 2023",
+        "description": "Argentina Programa 4.0",
+        "title": "CESSI Argentina"
+      },
+      {
+        "date": "Finalizó en 2023",
+        "description": "Inglés",
+        "title": "Centro Universitario de Idiomas"
+      }
+    ],
+    "educations_no": [
+      {
+        "date": "Finalizó en 2014",
+        "description": "Operador de Computadoras",
+        "title": "Universidad Tecnológica Nacional"
+      },
+      {
+        "date": "Finalizó en 2014",
+        "description": "Reparador de Computadoras",
+        "title": "Universidad Tecnológica Nacional"
+      },
+      {
+        "date": "Finalizó en 2019",
+        "description": "Programador Web MERN Stack",
+        "title": "Rolling Code School"
+      },
+      {
+        "date": "Finalizó en 2023",
+        "description": "Argentina Programa 4.0",
+        "title": "CESSI Argentina"
+      },
+      {
+        "date": "Finalizó en 2023",
+        "description": "Inglés",
+        "title": "Centro Universitario de Idiomas"
+      }
+    ],
+    "contact": [
+      {
+        "title": "E-Mail",
+        "description": "pablo.diaz1795@gmail.com",
+        "url": "pablo.diaz1795@gmail.com"
+      },
+      {
+        "title": "GitHub",
+        "description": "pablo1795",
+        "url": "https://github.com/pablo1795"
+      },
+      {
+        "title": "LinkedIn",
+        "description": "pablo1795",
+        "url": "https://linkedin.com/in/pablo1795"
+      }
+    ]
+  }
+}
