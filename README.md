@@ -1,5 +1,7 @@
 ## Hi there 👋
+- Mi curriculum web: https://pablo1795.github.io/pablo1795/
 
+- Aplicación  creada con NextJS, ReactJS y TaildwindCSS.
 <!--
 **pablo1795/pablo1795** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
