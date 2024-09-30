@@ -9,7 +9,7 @@ export default function MainTemplateLayout({
 }>) {
   return (
     <ThemeProvider>
-      <div className="bg-stone-900 text-stone-800 dark:text-stone-200 min-h-screen p-2 print:p-0">
+      <div className="bg-stone-900 text-stone-800 dark:text-stone-200 min-h-screen">
         <NavbarModal />
 
         {children}
